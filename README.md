@@ -154,16 +154,6 @@ The app uses a dark cinematic theme defined via CSS custom properties:
 
 ---
 
-## 📸 Screenshots
-
-> _Add your screenshots here after running the project._
-
-| Home Page | Movie Detail | Add Movie |
-|---|---|---|
-| ![Home]() | ![Detail]() | ![Add]() |
-
----
-
 ## 🔮 Possible Improvements
 
 - [ ] Migrate storage from `sessionStorage` to `localStorage` or a database for persistence
@@ -182,5 +172,5 @@ This project is open source and available under the [MIT License](LICENSE).
 ---
 
 <div align="center">
-  Made with ❤️ using Next.js & Tailwind CSS
+    Powered by Next.js · Typed with TypeScript · Styled with Tailwind 🚀
 </div>
