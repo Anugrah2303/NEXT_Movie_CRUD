@@ -43,7 +43,7 @@ const Form = ({ formData, setFormData, handleSubmit, error, heading }: FormProps
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                         <div>
                             <div>
-                                <Input value={formData.genre.join(", ")} placeholder="genre" label="genre" name="genre" onChange={(e) => setFormData((pre) => ({ ...pre, [e.target.name]: e.target.value.split(",").map(g => g.trim()) }))} />
+                                <Input value={formData.genre.join(", ")} placeholder="Action, Drama" label="genre" name="genre" onChange={(e) => setFormData((pre) => ({ ...pre, [e.target.name]: e.target.value.split(",").map(g => g.trim()) }))} />
                                 {
                                     error?.genre && <span className="mt-1 block rounded-md px-3 py-2 text-sm border border-(--danger) bg-(--danger)/10 text-(--danger)">{error.genre}</span>
                                 }

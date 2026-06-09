@@ -25,7 +25,6 @@
 
 }
 body {
-  min-height: 100vh;
   max-width: 1400px;
   margin: 0 auto;
 }
@@ -33,5 +32,4 @@ body {
 header{
   border-bottom-right-radius: 50px;
   border-top-right-radius: 50px;
-
 }
